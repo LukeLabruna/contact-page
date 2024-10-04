@@ -1,0 +1,37 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+}
+
+.navBar-logo {
+    position: relative;
+    height: 3rem;
+}
+
+.navBar-logo h1 {
+    letter-spacing: 0.33rem;
+}
+
+.navBar-logo p {
+    position: relative;
+    top: -0.5rem;
+    color: #c99027;
+}
+
+.navBar ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navBar-contact {
+    color: #c99027;
+    transition: all ease-in-out 150ms;
+}
+
+.navBar-contact:hover {
+    color: #777;
+}
