@@ -10,7 +10,7 @@ const NavBar = () => {
     const offset = window.scrollY
     const halfViewportHeight = window.innerHeight * 0.5; // 50vh en píxeles
 
-    if (offset < halfViewportHeight) {
+    if (offset < 20 ) {
       setScrolled(false)
     } else {
       setScrolled(true)
