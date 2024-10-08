@@ -3,7 +3,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 1rem;
-    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: all ease-in-out 1s;
 }
 
 .navBar-logo {
@@ -34,4 +37,8 @@
 
 .navBar-contact:hover {
     color: #777;
+}
+
+.scrolled {
+    background-color:  #333 !important;
 }
