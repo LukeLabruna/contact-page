@@ -4,7 +4,7 @@ import "./Home.css"
 const Home = () => {
     return (
         <>
-        <main className='home'>
+        <sectin id='home' className='home'>
             <div className='home-slogan'>
                 <p>ACTIVA TU HUELLA DIGITAL</p>
                 <p>Y POTENCIA TU FUTURO</p>
@@ -14,7 +14,7 @@ const Home = () => {
                 <p>Digital Consulting Group</p>
                 <div className='home-logo-bar'></div>
             </div>
-        </main>
+        </sectin>
         <div className='cover'></div>
         </>
     )
