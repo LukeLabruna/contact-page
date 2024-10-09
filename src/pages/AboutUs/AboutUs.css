@@ -1,5 +1,5 @@
 .aboutUs {
-    height: calc(100vh - 64px);
+    height: 100vh;
     background-color: #ffd381;
     color: #c99027;
     font-family: "Poppins", sans-serif;

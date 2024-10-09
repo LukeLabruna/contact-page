@@ -1,0 +1,48 @@
+.services {
+    background-color:#F1F1F1;
+    padding: 5rem 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.services > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 4rem auto;
+}
+
+.services > div > img {
+    width: 35%;
+}
+
+.services > div div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 50%;
+}
+
+.services h3 {
+    font-size: 0.8rem;
+    letter-spacing: 0.3rem;
+    color: #c99027;
+}
+
+.services h2 {
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+}  
+
+.services ul {
+    list-style: none;
+}
+
+.services li {
+    margin: 1rem 0; 
+}
+
+.services li img {
+    width: 1rem;
+    margin-right: 0.5rem;
+}

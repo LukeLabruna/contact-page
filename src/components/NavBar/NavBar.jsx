@@ -7,7 +7,7 @@ const NavBar = () => {
 
   const handleScroll = () => {
     const offset = window.scrollY
-    const halfViewportHeight = window.innerHeight * 0.5; // 50vh en píxeles
+   // const halfViewportHeight = window.innerHeight * 0.5
 
     if (offset < 20 ) {
       setScrolled(false)
@@ -32,9 +32,7 @@ const NavBar = () => {
         </a>
         <ul>
             <li><a href="#aboutUs">Nosotros</a></li>
-            <li><a>Soluciones</a></li>
-            <li><a>Como trabajamos</a></li>
-            <li><a>Servicios</a></li>
+            <li><a href='#services'>Servicios</a></li>
             <li><a className="navBar-contact">Contacto</a></li>
         </ul>
     </header>
