@@ -31,6 +31,7 @@ const Services = () => {
                 </div>
                 <img src="/assets/img/social-media.png" alt="" />
             </div>
+            <div className='services-bar'></div>
         </section>
     )
 }
