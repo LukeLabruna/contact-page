@@ -33,6 +33,7 @@ const NavBar = () => {
         <ul>
             <li><a href="#aboutUs">Nosotros</a></li>
             <li><a href='#services'>Servicios</a></li>
+            <li><a href='#solutions'>Soluciones</a></li>
             <li><a className="navBar-contact">Contacto</a></li>
         </ul>
     </header>

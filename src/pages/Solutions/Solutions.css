@@ -1,0 +1,30 @@
+.solutions {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffd381;
+    justify-content: center;
+    gap: 3rem;
+    padding: 6rem;
+    padding-bottom: 0;
+}
+
+.solutions > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 25%;
+}
+
+.solutions > div img {
+    width: 3rem;
+}
+
+.solutions > .solutions-bar {
+    content: "";
+    background-color: #c99027;
+    height: 12px;
+    width: 30%;
+    position: relative;
+    bottom: -6px;
+    margin: 0 auto;
+}

@@ -1,0 +1,7 @@
+.tablePrice {
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    background-color:#F1F1F1;
+}

@@ -30,6 +30,8 @@
     font-size: 0.8rem;
     letter-spacing: 0.3rem;
     color: #c99027;
+    position: relative;
+    top: 2.2rem;
 }
 
 .services h2 {
