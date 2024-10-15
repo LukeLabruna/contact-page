@@ -1,10 +1,8 @@
 import NavBar from './components/NavBar/NavBar'
 import Footer from './components/Footer/Footer'
-import Home from './pages/Home/Home'
-import AboutUs from './pages/AboutUs/AboutUs'
-import Services from './pages/Services/Services'
-import Solutions from './pages/Solutions/Solutions'
-import TablePrice from './pages/TablePrice/TablePrice'
+import Contairner from './components/Container/Contairner'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Contact from './pages/Contact/Contact'
 import './App.css'
 
 function App() {
@@ -12,12 +10,12 @@ function App() {
 
   return (
     <>
-      <NavBar />
-      <Home />
-      <AboutUs />
-      <Services />
-      <Solutions />
-      <TablePrice />
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Contairner />} />
+          <Route path='/contact' element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
