@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './NavBar.css'	
 import { useState, useEffect } from "react"
 
@@ -26,15 +27,15 @@ const NavBar = () => {
 
   return (
     <header className={`navBar ${scrolled ? 'scrolled' : ''}`}>
-        <a className="navBar-logo" href="#home">
+        <Link className="navBar-logo" to={"/#home"}>
             <h1>Jhon Doe</h1>
             <p>Digital Consulting Group</p>
-        </a>
+        </Link>
         <ul>
-            <li><a href="#aboutUs">Nosotros</a></li>
-            <li><a href='#services'>Servicios</a></li>
-            <li><a href='#solutions'>Soluciones</a></li>
-            <li><a className="navBar-contact">Contacto</a></li>
+            <li><Link to={"/#aboutUs"}>Nosotros</Link></li>
+            <li><Link to={"/#services"}>Servicios</Link></li>
+            <li><Link to={"/#solutions"}>Soluciones</Link></li>
+            <li><Link to='/contact' className="navBar-contact">Contacto</Link></li>
         </ul>
     </header>
   )

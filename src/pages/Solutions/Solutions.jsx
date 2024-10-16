@@ -1,8 +1,9 @@
+import { forwardRef } from 'react'
 import './Solutions.css'
 
-const Solutions = () => {
+const Solutions = forwardRef((props, ref) => {
   return (
-    <section id='solutions' className='solutions'>
+    <section id='solutions' className='solutions' ref={ref}>
         <div>
           <img src="/assets/img/web-coding.png" alt="" />
           <h2>Páginas web</h2>
@@ -36,6 +37,6 @@ const Solutions = () => {
         <div className='solutions-bar'></div>
     </section>
   )
-}
+})
 
 export default Solutions

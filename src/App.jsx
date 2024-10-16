@@ -11,6 +11,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
+        <NavBar />
         <Routes>
           <Route path='/' element={<Contairner />} />
           <Route path='/contact' element={<Contact />} />
