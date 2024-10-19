@@ -65,7 +65,7 @@ const NavBar = () => {
             <h1>Jhon Doe</h1>
             <p>Digital Consulting Group</p>
         </Link>
-        <button className='navBar-menu-button' onClick={handleOnClickMenu}><i class="fa-solid fa-bars"></i></button>
+        <button className='navBar-menu-button' onClick={handleOnClickMenu}><i className="fa-solid fa-bars"></i></button>
         <ul className={showMenu ? 'showMenu' : ''} ref={menuRef}>
             <li><Link to={"/#aboutUs"}>Nosotros</Link></li>
             <li><Link to={"/#services"}>Servicios</Link></li>

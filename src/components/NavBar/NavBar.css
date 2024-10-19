@@ -7,7 +7,7 @@
     top: 0;
     width: 100%;
     transition: all ease-in-out 1s;
-    z-index: 2;
+    z-index: 10;
 }
 
 .navBar-logo {
@@ -42,7 +42,7 @@
 }
 
 .scrolled {
-    background-color:  #333 !important;
+    background-color: #333 !important;
 }
 
 .navBar-menu-button {
@@ -60,12 +60,13 @@
         flex-direction: column;
         align-items: center;
         gap: 0.2rem;
+        padding-bottom: 0.5rem;
         position: fixed;
-        top: -7rem;
+        top: 3.5rem;
         left: 0;
         width: 100%;
         background-color: #333;
-        z-index: 1;
+        clip-path: inset(0 0 100% 0);
         transition: all ease-in-out 1s;
     }
 
@@ -79,7 +80,6 @@
     }
 
     .showMenu {
-        top: 3.5rem !important;
-        z-index: 0 !important;
+        clip-path: inset(0 0 0 0) !important;
     }
 }

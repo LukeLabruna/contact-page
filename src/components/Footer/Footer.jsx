@@ -15,10 +15,10 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-social-media">
-        <a><i class="fa-brands fa-square-github"></i></a>
-        <a><i class="fa-brands fa-square-instagram"></i></a>
-        <a><i class="fa-brands fa-square-facebook"></i></a>
-        <a><i class="fa-brands fa-square-x-twitter"></i></a>
+        <a><i className="fa-brands fa-square-github"></i></a>
+        <a><i className="fa-brands fa-square-instagram"></i></a>
+        <a><i className="fa-brands fa-square-facebook"></i></a>
+        <a><i className="fa-brands fa-square-x-twitter"></i></a>
       </div>
       <div className="footer-copyrigth">
         <p>Copyright © 2024 Jhon Doe - Digital Consulting Group</p>
