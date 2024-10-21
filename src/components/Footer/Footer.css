@@ -74,3 +74,13 @@ footer {
     text-align: center;
     padding: 0.5rem;
 }
+
+@media screen and (max-width: 700px) {
+    .footer-logo-contact {
+        flex-direction: column;
+        width: 100%;
+    }
+    .footer-logo, .footer-contact {
+        width: 95%;
+    }
+}

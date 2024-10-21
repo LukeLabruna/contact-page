@@ -63,3 +63,18 @@
     margin: 0 auto;
     z-index: 1;
 }
+
+@media screen and (max-width: 700px) {
+    .services > div {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .services > div div {
+        width: 95%;
+    }
+
+    .services > div:not(:first-child) {
+        flex-direction: column-reverse;
+    }
+}

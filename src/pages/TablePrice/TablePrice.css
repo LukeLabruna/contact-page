@@ -1,6 +1,7 @@
 .tablePrice {
     padding: 5rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 3rem;
     background-color:#F1F1F1;

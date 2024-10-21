@@ -30,3 +30,12 @@
     bottom: -6px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 700px) {
+    .solutions {
+        padding: 5rem;
+    }
+    .solutions > div {
+        width: 90%;
+    }
+}

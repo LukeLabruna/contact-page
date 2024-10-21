@@ -64,3 +64,16 @@
     top: 40%;
     transform: translate(-50%, -50%);
 }
+
+@media screen and (max-width: 700px) {
+    .home-logo {
+        width: 100%;
+        bottom: -40px;
+    }
+
+    .home-logo-bar{
+        width: 20%;
+        margin: 0 auto;
+        margin-top: 1.2rem;
+    }
+}
