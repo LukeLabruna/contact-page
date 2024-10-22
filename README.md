@@ -9,6 +9,7 @@ This project is a simple, responsive contact page built with modern web technolo
 - Form validation
 - Clean and minimalistic UI
 - Integrated with a custom microservice for sending contact emails
+- Gmail App Password support for sending emails securely
 
 ## Technologies Used
 
@@ -35,6 +36,17 @@ This project is a simple, responsive contact page built with modern web technolo
 ## Email Microservice
 
 This project uses a custom microservice to handle contact form submissions and send emails. You can configure the microservice by adjusting the environment variables in the project to point to your microservice endpoint.
+
+### Gmail App Password Setup
+
+To securely send emails using Gmail, you'll need to generate an App Password. Here's how:
+
+1. Go to your [Google Account Security settings](https://myaccount.google.com/security).
+2. Under **"Signing in to Google"**, enable **2-Step Verification** if it's not already enabled.
+3. Once 2-Step Verification is active, go to the **App Passwords** section.
+4. Select **Mail** as the app and **Other** for the device name (you can name it something like "Contact Page").
+5. Generate the App Password and copy it.
+6. Add this App Password to your environment variables or configuration file (usually as `EMAIL_PASSWORD`).
 
 ## License
 
