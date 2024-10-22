@@ -46,7 +46,7 @@ To securely send emails using Gmail, you'll need to generate an App Password. He
 3. Once 2-Step Verification is active, go to the **App Passwords** section.
 4. Select **Mail** as the app and **Other** for the device name (you can name it something like "Contact Page").
 5. Generate the App Password and copy it.
-6. Add this App Password to your environment variables or configuration file (usually as `EMAIL_PASSWORD`).
+6. Add this App Password to your environment variables or configuration file (`VITE_APP_PASSWORD`).
 
 ## License
 
