@@ -10,7 +10,7 @@ const Home = () => {
                     <p>Y POTENCIA TU FUTURO</p>
                 </div>
                 <div className='home-logo'>
-                    <h1>Jhon Doe</h1>
+                    <h1>John Doe</h1>
                     <p>Digital Consulting Group</p>
                 </div>
                 <div className='home-logo-bar'></div>

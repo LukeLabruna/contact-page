@@ -62,7 +62,7 @@ const NavBar = () => {
   return (
     <header className={`navBar ${scrolled ? 'scrolled' : ''}`}>
         <Link className="navBar-logo" to={"/"}>
-            <h1>Jhon Doe</h1>
+            <h1>John Doe</h1>
             <p>Digital Consulting Group</p>
         </Link>
         <button className='navBar-menu-button' onClick={handleOnClickMenu}><i className="fa-solid fa-bars"></i></button>

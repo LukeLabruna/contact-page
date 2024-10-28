@@ -81,7 +81,7 @@ const Contact = () => {
         subject: "Informacion para contacto",
         text: "Email enviado desde la web",
         html: `<div style="width: 50vw; margin: 0 auto; background-color: #ffd381; padding: 20px; text-align: center;">
-        <h1 style="color: #777;">Jhon Doe</h1>
+        <h1 style="color: #777;">John Doe</h1>
         <p style="color: #c99027;">Digital Consulting Group</p>
         <br>
         <h2 style="color: #777;">Hola ${formData.first_name} ${formData.last_name}!</h2>

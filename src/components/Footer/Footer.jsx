@@ -6,7 +6,7 @@ const Footer = () => {
     <footer>
       <div className="footer-logo-contact">
         <Link className="footer-logo" to={"/"}>
-          <h2>Jhon Doe</h2>
+          <h2>John Doe</h2>
           <p>Digital Consulting Group</p>
         </Link>
         <div className="footer-contact">
@@ -21,7 +21,7 @@ const Footer = () => {
         <a><i className="fa-brands fa-square-x-twitter"></i></a>
       </div>
       <div className="footer-copyrigth">
-        <p>Copyright © 2024 Jhon Doe - Digital Consulting Group</p>
+        <p>Copyright © 2024 John Doe - Digital Consulting Group</p>
       </div>
     </footer>
   )
